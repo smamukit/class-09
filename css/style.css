@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head h3{
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.navbar{
+    background: #2C3E50 !important;
+    padding: 20px 0;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #fff !important;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(26, 188, 156) !important;
+    transition: 0.2s ease;
+}
+.head .nav-link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .5s ease;
+    padding-right: 30px !important;
+
+}
+header{
+    background-color: rgb(26, 188, 156);
+    padding: 150px 0;
+    text-align: center;
+}
+
+header img{
+    max-width: 20%;   
+}
+.divider{
+    display: flex;
+    flex: wrap;
+    height: 5px;
+    justify-content: center;
+}
+.divider-custom-line{
+    background-color: #fff;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+header h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+}
+header h4{
+    color: #fff;
+}
+
+span{
+    height: 10px;
+    width: 10px;
+    background-color: #fff;
+}
+
+#protfolio{
+   
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+#protfolio h1{
+font-size: 60px;
+font-weight: 700;
+}
+img{
+    max-width: 100%;
+}
+
+
+.about-section{
+    background-color: rgb(26, 188, 156);
+    padding: 100px 0;
+}
+
+.divider-custom{
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider-custom-line{
+    margin: 16px 0;
+    background-color: #fff;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 20px
+}
+
+.divider-custom-icon{
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divider-custom-icon-black{
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divider-custom-line-black{ margin: 16px 0;
+    background-color: #000;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 20px}
+.about-section h1{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center
+}
+.about-section p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgb(44, 62, 80);
+    color: rgb(255, 255, 255);
+}
+.footer .btn{
+
+    border-radius: 60px;
+}
+.last{
+    height: 80px;
+    background: #1a252f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
